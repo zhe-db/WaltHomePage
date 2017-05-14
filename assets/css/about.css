@@ -1,0 +1,177 @@
+#about-wrap {
+  width:100%;
+  height:100vh;
+  padding-left:0;
+  padding-right:0;
+}
+
+@media (max-width:767px) {
+  #about-wrapper {
+    background:url(star-sky.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    justify-content:center;
+  }
+}
+
+@media (max-width:991px) {
+  #about-wraper {
+    background:url(Cygnus-New-L.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    justify-content:center;
+  }
+}
+
+@media (max-width:1199px) {
+  #about-wrap #about-text {
+    background:url(../../assets/img/KingOfWings_Pinkston_7360.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    justify-content:center;
+  }
+}
+
+@media (min-width:1200px) {
+  #about-wrap #about-text {
+    background:url(../../assets/img/KingOfWings_Pinkston_7360.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    justify-content:center;
+  }
+}
+
+.about-wrapper {
+  background:url(../../assets/img/star_night.svg);
+  background-size:cover;
+}
+
+.box {
+  background-color:transparent !important;
+}
+
+.text-center.text-info.about-header {
+  color:white;
+  font-family:'Orbitron';
+}
+
+.text-center.about-intro {
+  color:#ffffff;
+  font-family:'Righteous';
+}
+
+.glyphicon.glyphicon-map-marker.icon {
+  content:url(../../assets/img/saturn_scaled.svg);
+  width:75px;
+  -webkit-animation:spin 14s linear infinite;
+  -moz-animation:spin 14s linear infinite;
+  animation:spin 14s linear infinite;
+}
+
+.glyphicon.glyphicon-time.icon {
+  content:url(../../assets/img/red_planet_scaled.svg);
+  width:75px;
+  -webkit-animation:spin_counter 10s linear infinite;
+  -moz-animation:spin_counter 10s linear infinite;
+  animation:spin_counter 10s linear infinite;
+}
+
+.glyphicon.glyphicon-list-alt.icon {
+  content:url(../../assets/img/mars_scaled.svg);
+  width:75px;
+  -webkit-animation:spin 5s linear infinite;
+  -moz-animation:spin 5s linear infinite;
+  animation:spin 5s linear infinite;
+}
+
+.glyphicon.glyphicon-leaf.icon {
+  content:url(../../assets/img/sun_scaled.svg);
+  width:75px;
+  -webkit-animation:spin 25s linear infinite;
+  -moz-animation:spin 25s linear infinite;
+  animation:spin 25s linear infinite;
+}
+
+.about-wrapper i {
+  height:75px;
+  width:75px;
+}
+
+.glyphicon.glyphicon-plane.icon {
+  content:url(../../assets/img/purple_scaled.svg);
+  -webkit-animation:spin 18s linear infinite;
+  -moz-animation:spin 18s linear infinite;
+  animation:spin 18s linear infinite;
+}
+
+#more {
+  height:100px;
+  width:100px;
+  content:url(../../assets/img/blackhole_scaled.svg);
+  -webkit-animation:spin 18s linear infinite;
+  -moz-animation:spin 18s linear infinite;
+  animation:spin 18s linear infinite;
+}
+
+.glyphicon.glyphicon-phone.icon {
+  content:url(../../assets/img/satellite_scaled.svg);
+}
+
+#header-wrap #star {
+  border:solid 1px black;
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:transparent;
+}
+
+#header-wrap #stars {
+  position:absolute;
+  color:white;
+  max-width:970px;
+  margin:0 auto;
+  text-align:center;
+  top:50%;
+  left:0;
+  right:0;
+  transform:translateY(-50%);
+  line-height:40px;
+  padding:0;
+}
+
+.learn-more {
+  color:cyan;
+  font-size:small;
+  font-family:'Press Start 2P';
+  background:none;
+  cursor:pointer;
+}
+
+.learn-more:hover {
+  color:white;
+  font-size:small;
+  font-weight:600;
+  transition:initial;
+  cursor:pointer;
+  background:none;
+}
+
+.clickable {
+  cursor:pointer;
+}
+
+div {
+  justify-content:center;
+  text-align:center;
+}
+
+a {
+  background:transparent;
+}
+

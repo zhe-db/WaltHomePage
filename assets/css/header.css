@@ -1,0 +1,182 @@
+.header-highlight-text {
+  opacity:1;
+}
+
+.header-bg {
+  transition:2s;
+  opacity:0.6;
+  background:black;
+}
+
+.header-cover {
+  transition:1s;
+  background:black;
+  opacity:0.4;
+}
+
+#header-wrap {
+  height:100vh;
+  width:100%;
+  padding-left:0;
+  padding-right:0;
+}
+
+#header-text {
+  height:100%;
+  width:100%;
+  /*opacity:0.6;*/
+  background:url(../../assets/img/LobsterCat_VLT_4000.jpg);
+  background-size:cover;
+  z-index:20;
+  justify-content:center;
+  transition:opacity 0.25s;
+}
+
+.text-uppercase.show {
+  text-align:center;
+  font-family:'Monoton';
+}
+
+.header-row-text {
+  margin-bottom:30px;
+}
+
+.header-title {
+  position:absolute;
+  text-align:center;
+  z-index:100;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  align-items:center;
+  justify-content:center;
+  display:flex;
+}
+
+@media (max-width:767px) {
+  #header-span-text {
+    font-size:30px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+@media (max-width:767px) {
+  #header-span-text {
+    font-size:25px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+@media (max-width:1199px) {
+  #header-span-text {
+    font-size:45px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+@media (min-width:1200px) {
+  #header-span-text {
+    font-size:45px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+@media (max-width:991px) {
+  #header-span-text {
+    font-size:35px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+#header-span-text-2 {
+  font-size:50px;
+  font-family:'Monoton';
+  color:white;
+  z-index:100;
+}
+
+@media (max-width:767px) {
+  #header-span-text-2 {
+    font-size:50px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+@media (max-width:991px) {
+  #header-span-text-2 {
+    font-size:40px;
+    font-family:'Monoton';
+    color:white;
+    z-index:100;
+  }
+}
+
+#header-text .header-title .header-row {
+  margin:0;
+}
+
+#header-text .header-title .row .header-intro {
+  margin-top:30px;
+}
+
+#header-text span {
+  z-index:50;
+}
+
+#header-text #img-filter {
+  z-index:90;
+  position:absolute;
+  height:100vh;
+  width:100%;
+}
+
+.header-text-n {
+  opacity:0.8;
+}
+
+#header-text canvas {
+  opacity:0.8;
+}
+
+#header-text #next-button-container {
+  position:absolute;
+  width:100%;
+  justify-content:center;
+  height:100vh;
+  display:flex;
+}
+
+#header-text #next-button-container #next-button {
+  margin-top:auto;
+  margin-bottom:0;
+  padding-bottom:10px;
+}
+
+#header-text #next-button-container #next-button .active {
+  color:cyan;
+}
+
+#header-text #next-button-container #next-button .inactive {
+  color:#fffbfb;
+}
+
+#header-text #next-button-container #next-button .glyphicon {
+  font-weight:100;
+  font-size:29px;
+  display:block;
+  z-index:500;
+}
+

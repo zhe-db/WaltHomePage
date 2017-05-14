@@ -1,0 +1,25 @@
+iframe {
+  height:70vh;
+}
+
+h5 {
+  font-family:'Play';
+  font-weight:900;
+}
+
+#label {
+  /*font-stretch:expanded;*/
+}
+
+#header {
+  margin-bottom:30px;
+}
+
+#header-container {
+  margin-bottom:30px;
+}
+
+.navbar.navbar-default.navbar-collapse {
+  width:100vw;
+}
+

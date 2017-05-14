@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+    <defs>
+        <radialGradient id="a" cx="37.54" cy="24.92" r="19.7" gradientUnits="userSpaceOnUse">
+            <stop offset=".01" stop-color="#ffeca7"/>
+            <stop offset=".3" stop-color="#ffeca5" stop-opacity=".68"/>
+            <stop offset=".64" stop-color="#ffeba3" stop-opacity=".32"/>
+            <stop offset=".88" stop-color="#ffeba2" stop-opacity=".09"/>
+            <stop offset="1" stop-color="#ffeba1" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="b" cx="12.62" cy="24.92" r="19.7" xlink:href="#a"/>
+    </defs>
+    <title>
+        sun_scaled
+    </title>
+    <g data-name="Layer 1" style="isolation:isolate">
+        <path data-name="&lt;Path&gt;" d="M25.08 0a24.92 24.92 0 0 1 0 49.83" fill="url(#a)"/>
+        <path data-name="&lt;Path&gt;" d="M25.08 49.83a24.92 24.92 0 0 1 0-49.83" fill="url(#b)"/>
+        <circle data-name="&lt;Path&gt;" cx="25.08" cy="24.92" r="14.06" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".6"/>
+        <circle data-name="&lt;Path&gt;" cx="25.72" cy="24.92" r="13.1" fill="#ffd743"/>
+        <ellipse data-name="&lt;Path&gt;" cx="21.2" cy="17.17" rx="3.02" ry="2.64" transform="rotate(-26.73 21.198 17.175)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+        <ellipse data-name="&lt;Path&gt;" cx="32.75" cy="24.28" rx="3.02" ry="3.2" transform="rotate(-3.33 32.695 24.191)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+        <ellipse data-name="&lt;Path&gt;" cx="21.25" cy="24.6" rx="1.66" ry="1.56" transform="rotate(-7.73 21.24 24.557)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+        <ellipse data-name="&lt;Path&gt;" cx="29.92" cy="14.91" rx=".96" ry="1.25" transform="rotate(-67.07 29.922 14.912)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+        <ellipse data-name="&lt;Path&gt;" cx="29.25" cy="34.24" rx="2.08" ry="1.48" transform="rotate(-16.24 29.262 34.247)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+        <ellipse data-name="&lt;Path&gt;" cx="16.46" cy="32.58" rx="2.03" ry="2" transform="rotate(-33.99 16.463 32.578)" style="mix-blend-mode:hard-light" fill="#ff6137" opacity=".76"/>
+    </g>
+</svg>

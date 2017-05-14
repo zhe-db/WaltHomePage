@@ -1,0 +1,75 @@
+.btn-neon {
+  text-shadow:0 1px 0 #fff;
+  background-image:-webkit-linear-gradient(top,#000000 0,#000000 100%);
+  background-image:-o-linear-gradient(top,#000000 0,#000000 100%);
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(#000));
+  background-image:linear-gradient(to bottom,#000000 0,#000000 100%);
+  transition:all 1s;
+  box-shadow:0 0 #000;
+  text-shadow:0 0 0px #000000;
+  color:#d0d0d0;
+  border-color:#333;
+  position:absolute;
+  top:70%;
+  background:none;
+  background-size:cover;
+  width:90px;
+  height:80px;
+}
+
+@media (max-width:991px) {
+  .btn-neon {
+    text-shadow:0 1px 0 #fff;
+    background-image:-webkit-linear-gradient(top,#000000 0,#000000 100%);
+    background-image:-o-linear-gradient(top,#000000 0,#000000 100%);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(#000));
+    background-image:linear-gradient(to bottom,#000000 0,#000000 100%);
+    transition:all 1s;
+    box-shadow:0 0 #000;
+    text-shadow:0 0 0px #000000;
+    color:#d0d0d0;
+    border-color:#333;
+    position:absolute;
+    top:70%;
+    background:none;
+    background-size:cover;
+    width:67.5px;
+    font-size:10px;
+    height:60px;
+  }
+}
+
+@media (max-width:767px) {
+  .btn-neon {
+    text-shadow:0 1px 0 #fff;
+    background-image:-webkit-linear-gradient(top,#000000 0,#000000 100%);
+    background-image:-o-linear-gradient(top,#000000 0,#000000 100%);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#000),to(#000));
+    background-image:linear-gradient(to bottom,#000000 0,#000000 100%);
+    position:absolute;
+    transition:all 1s;
+    box-shadow:0 0 #000;
+    text-shadow:0 0 0px #000000;
+    color:#d0d0d0;
+    border-color:#333;
+    height:40px;
+    top:80%;
+    left:43%;
+    background-size:cover;
+    width:45px;
+    cursor:pointer;
+    text-align:center;
+    font-size:4px;
+    background-position:initial;
+  }
+}
+
+neon.button.cssbtn-neon:focus, .btn-neon:hover, .btn-neon:active {
+  text-shadow:0 4px 0 #000000;
+  background-color:#000;
+  color:#06e1ff;
+  box-shadow:2px 2px #666;
+  text-shadow:1px 4px 6px #ffffff;
+  border-color:#06e1ff;
+}
+

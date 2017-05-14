@@ -1,0 +1,83 @@
+#video-container {
+  width:100%;
+  height:100vh;
+  justify-content:center;
+  align-content:center;
+  overflow:hidden;
+  background:black;
+  opacity:0.5;
+}
+
+#video-container video {
+  z-index:200;
+  display:block;
+  overflow:hidden;
+}
+
+#projects-header {
+  font-family:'Audiowide';
+  font-size:xx-large;
+  text-align:center;
+  color:#00bce2;
+  margin:0 auto;
+}
+
+#projects {
+  justify-content:center;
+  text-align:center;
+  padding:45px;
+}
+
+#watducks {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  float:left;
+}
+
+#watducks-header {
+  font-family:'Michroma';
+  font-size:20px;
+  height:30px;
+  width:100%;
+  text-align:center;
+  font-weight:900;
+  color:#00ffff;
+}
+
+#watducks-about {
+  margin-top:10px;
+  padding:15PX 15PX;
+  font-family:'Michroma';
+  text-align:center;
+  font-weight:700;
+}
+
+#watducks-video {
+  width:100%;
+  float:left;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  background:url(../../assets/img/Image-2.png);
+  z-index:400;
+  background-size:cover;
+}
+
+#watducks {
+  background:#fffbfb;
+  margin-bottom:30px;
+}
+
+#watducks-container {
+  margin-bottom:30px;
+  height:100%;
+  width:100%;
+  position:relative;
+}
+
+#project-container {
+  background:url(../../assets/img/OrionSpringDickinson2048.jpg);
+  background-size:cover;
+}
+

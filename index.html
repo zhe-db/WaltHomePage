@@ -6,85 +6,366 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WaltHomePage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich|Francois+One|Gloria+Hallelujah|Lobster|Michroma|Monoton|Orbitron|Play|Press+Start+2P|Righteous|Six+Caps|Space+Mono|Timmana|VT323|Walter+Turncoat">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Francois+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Michroma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Six+Caps">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Timmana">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Walter+Turncoat">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#f7f9f9;margin:0px 0px 20px;">
-        <div class="container navbar">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">WALT<ul class="list-unstyled fa-ul"><li></li></ul></a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <div class="container-fluid" id="header-wrap">
+        <div id="header-text">
+    <div id="img-filter" class="header-cover"></div>
+    <div id ="next-button-container">
+        <div id ="next-button">
+            <div id ="gif"></div>
+            <span id="next-font-0" class="glyphicon glyphicon-chevron-down inactive" aria-hidden="true">
+            </span>
+            <span id="next-font-1" class="glyphicon glyphicon-chevron-down inactive" aria-hidden="true">
+            </span>
+            <span id="next-font-2" class="glyphicon glyphicon-chevron-down inactive" aria-hidden="true">
+            </span>
+        </div>
+    </div>
+    <div class="header-title">
+        <div class="row header-row">
+            <div class="col-md-12">
+                <span id ="header-span-text" class="header-text-n">
+                    Exploring Unknown with Coding.
+                </span>
             </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li role="presentation"><a href="#">About Me</a></li>
-                    <li role="presentation"><a href="#">Portfolio </a></li>
-                    <li role="presentation">
-                        <a href="#"> <i class="glyphicon glyphicon-thumbs-up"></i></a>
-                    </li>
-                </ul>
+                <div class="col-md-12 header-intro">
+                <span id ="header-span-text-2" class="header-text-n">
+                    Hi, I am Zhe Wang.
+                </span>
+                </div>
             </div>
         </div>
-    </nav>
-    <div id="particles">
-    <div class="img-container">
-        <div id ="particles-js"></div>
-            <div id ="header-text">
-                Exploring Unknown.
+</div>
+    </div>
+    <canvas id ="space"></canvas>
+
+    <div class="container" id="intro">
+        <div id="spaceship"></div>
+        <div id="next-intro"></div>
+        <div id="idcard"></div>
+        <div id="learn-1"></div>
+        <div id="creativity"></div>
+        <div id="beginner"></div>
+        <button class=" btn btn-neon" id="activate-intro" type="button">Activate</button>
+        <div id="about-1"></div>
+    </div>
+    <div class="features-boxed about-wrapper">
+        <div class="container-fluid">
+            <div class="intro">
+                <h2 class="text-center text-info about-header" data-bs-hover-animate="pulse">Star Map</h2>
+                <p class="text-center about-intro" data-bs-hover-animate="pulse" style="font-size:25px;"> A collection of stars I have been exploring.</p>
             </div>
-            <div class="img-filter"></div>
-            <img src="assets/img/LobsterCat_VLT_4000.jpg"/>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box box-1"><i class="glyphicon glyphicon-map-marker icon" data-bs-hover-animate="pulse" style="font-size:14px;"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:#eef4f7;">HTML+CSS </h3>
+                        <p data-bs-hover-animate="pulse" class="description" style="color:#ffffff;"><strong>Solid Fundation of Front end Web designing and developing skills.</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box"><i class="glyphicon glyphicon-time icon" data-bs-hover-animate="pulse"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:#fffbfb;"> JavaScript</h3>
+                        <p data-bs-hover-animate="pulse" class="description" style="color:#fffbfb;"><strong>Two year Experinece with Javascript</strong>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box"><i class="glyphicon glyphicon-list-alt icon" data-bs-hover-animate="pulse"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:#fffbfb;"> JS Libraries</h3>
+                        <p data-bs-hover-animate="pulse" class="description" style="color:#fffbfb;"><strong> Experience with jQuery, Angular.js, ReactJS. Exploring more now.</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box"><i class="glyphicon glyphicon-leaf icon" data-bs-hover-animate="pulse"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:#fffbfb;">C/C++ </h3>
+                        <p data-bs-hover-animate="pulse" class="description" style="color:#fffbfb;">Experience with C, Currently learning C++ and Objective Orientated Programming</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box"><i class="glyphicon glyphicon-plane icon" data-bs-hover-animate="pulse"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:rgb(254,255,255);"> Ruby</h3>
+                        <p data-bs-hover-animate="pulse" class="description" style="color:rgb(248,249,249);"><strong> Basic grasp of Ruby ang Ruby on rails, still working on it.</strong></p>
+                        <a href="#" class="learn-more"> </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+                    <div class="box"><i class="glyphicon glyphicon-phone icon" data-bs-hover-animate="pulse"></i>
+                        <h3 data-bs-hover-animate="pulse" class="name" style="color:rgb(246,249,251);">MEAN.JS</h3>
+                        <p class="description" style="color:rgb(247,248,249);"><strong> Web application developing experience with MEAN on server.</strong></p>
+                        <a href="#" class="learn-more"> </a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 item" id="modal-act">
+    <div class="box"><i id="more" class="glyphicon glyphicon-phone icon"></i>
+        <h3 class="name" style="color:rgb(246,249,251);">More</h3>
+        <a data-toggle="modal" data-target="#modal1" class="learn-more">Click to learn more</a>
     </div>
 </div>
-    <div id="sun"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500"><defs><style>.cls-1{isolation:isolate;}.cls-2{fill:url(#radial-gradient);}.cls-3{fill:url(#radial-gradient-2);}.cls-4,.cls-6{fill:#ff6137;mix-blend-mode:hard-light;}.cls-4{opacity:0.6;}.cls-5{fill:#ffd743;}.cls-6{opacity:0.76;}</style><radialGradient id="radial-gradient" cx="375.29" cy="249.42" r="197.18" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#ffeca7"/><stop offset="0.3" stop-color="#ffeca5" stop-opacity="0.68"/><stop offset="0.64" stop-color="#ffeba3" stop-opacity="0.32"/><stop offset="0.88" stop-color="#ffeba2" stop-opacity="0.09"/><stop offset="1" stop-color="#ffeba1" stop-opacity="0"/></radialGradient><radialGradient id="radial-gradient-2" cx="125.87" cy="249.42" r="197.18" xlink:href="#radial-gradient"/></defs><title>sun</title><g class="cls-1"><g id="Layer_1" data-name="Layer 1"><path id="_Path_" data-name="&lt;Path&gt;" class="cls-2" d="M250.58,0C388.33,0,500,111.67,500,249.42S388.33,498.83,250.58,498.83"/><path id="_Path_2" data-name="&lt;Path&gt;" class="cls-3" d="M250.58,498.83C112.83,498.83,1.17,387.17,1.17,249.42S112.83,0,250.58,0"/><circle id="_Path_3" data-name="&lt;Path&gt;" class="cls-4" cx="250.58" cy="249.42" r="140.7"/><circle id="_Path_4" data-name="&lt;Path&gt;" class="cls-5" cx="256.98" cy="249.42" r="131.1"/><ellipse id="_Path_5" data-name="&lt;Path&gt;" class="cls-6" cx="211.74" cy="171.87" rx="30.19" ry="26.42" transform="translate(-54.67 113.59) rotate(-26.73)"/><ellipse id="_Path_6" data-name="&lt;Path&gt;" class="cls-6" cx="327.33" cy="243.02" rx="30.19" ry="32.07" transform="translate(-13.55 19.41) rotate(-3.33)"/><ellipse id="_Path_7" data-name="&lt;Path&gt;" class="cls-6" cx="212.21" cy="246.22" rx="16.57" ry="15.65" transform="translate(-31.17 30.76) rotate(-7.73)"/><ellipse id="_Path_8" data-name="&lt;Path&gt;" class="cls-6" cx="299" cy="149.26" rx="9.58" ry="12.47" transform="matrix(0.39, -0.92, 0.92, 0.39, 45.04, 366.48)"/><ellipse id="_Path_9" data-name="&lt;Path&gt;" class="cls-6" cx="292.34" cy="342.78" rx="20.86" ry="14.77" transform="translate(-84.19 95.41) rotate(-16.24)"/><ellipse id="_Path_10" data-name="&lt;Path&gt;" class="cls-6" cx="164.25" cy="326.16" rx="20.34" ry="20" transform="translate(-154.27 147.54) rotate(-33.99)"/></g></g></svg></div>
-    <div id="particles">
-    <div id ="particles-js"></div>
-    <div id="blackhole">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500"><defs><radialGradient id="2e8f4dee-5a68-4075-890f-0da9ebb6ce05" cx="243.63" cy="265.01" r="274.73" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#73b0ff"/><stop offset="0.06" stop-color="#6cacff"/><stop offset="0.14" stop-color="#58a1ff"/><stop offset="0.25" stop-color="#378eff"/><stop offset="0.37" stop-color="#0975ff"/><stop offset="0.39" stop-color="#0070ff"/><stop offset="0.45" stop-color="#0070ff" stop-opacity="0.99"/><stop offset="0.49" stop-color="#0070ff" stop-opacity="0.95"/><stop offset="0.53" stop-color="#0070ff" stop-opacity="0.89"/><stop offset="0.56" stop-color="#0070ff" stop-opacity="0.81"/><stop offset="0.59" stop-color="#0070ff" stop-opacity="0.7"/><stop offset="0.62" stop-color="#0070ff" stop-opacity="0.56"/><stop offset="0.65" stop-color="#0070ff" stop-opacity="0.4"/><stop offset="0.67" stop-color="#0070ff" stop-opacity="0.22"/><stop offset="0.7" stop-color="#0070ff" stop-opacity="0.01"/><stop offset="0.7" stop-color="#0070ff" stop-opacity="0"/></radialGradient><radialGradient id="b492b6a8-9e6c-4375-ba30-61591841e822" cx="245.11" cy="266.28" r="187.94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.39" stop-color="#fff"/><stop offset="0.46" stop-color="#fff" stop-opacity="0.88"/><stop offset="0.63" stop-color="#fff" stop-opacity="0.57"/><stop offset="0.83" stop-color="#fff" stop-opacity="0.2"/></radialGradient><radialGradient id="0c297ec7-b336-446a-8a90-78be36a41ca9" cx="239.85" cy="261.97" r="258.22" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.11" stop-color="#fdfeff" stop-opacity="0.99"/><stop offset="0.21" stop-color="#f7faff" stop-opacity="0.94"/><stop offset="0.31" stop-color="#edf5ff" stop-opacity="0.87"/><stop offset="0.41" stop-color="#dfedff" stop-opacity="0.77"/><stop offset="0.5" stop-color="#cce2ff" stop-opacity="0.64"/><stop offset="0.59" stop-color="#b6d6ff" stop-opacity="0.48"/><stop offset="0.68" stop-color="#9bc7ff" stop-opacity="0.29"/><stop offset="0.77" stop-color="#7db6ff" stop-opacity="0.07"/><stop offset="0.8" stop-color="#73b0ff" stop-opacity="0"/></radialGradient><radialGradient id="e025bdde-e409-476c-a095-280c8ec4a5b9" cx="239.85" cy="260.3" r="264.37" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.1" stop-color="#fcfeff" stop-opacity="0.98"/><stop offset="0.21" stop-color="#f5f9ff" stop-opacity="0.93"/><stop offset="0.33" stop-color="#e9f2ff" stop-opacity="0.84"/><stop offset="0.45" stop-color="#d7e9ff" stop-opacity="0.72"/><stop offset="0.57" stop-color="#c1dcff" stop-opacity="0.56"/><stop offset="0.7" stop-color="#a6cdff" stop-opacity="0.36"/><stop offset="0.82" stop-color="#86bbff" stop-opacity="0.13"/><stop offset="0.89" stop-color="#73b0ff" stop-opacity="0"/></radialGradient><radialGradient id="a3234330-c761-4060-999d-5127dc9778a0" cx="239.85" cy="262.01" r="260.67" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.2" stop-color="#fefeff" stop-opacity="0.99"/><stop offset="0.31" stop-color="#f9fcff" stop-opacity="0.96"/><stop offset="0.4" stop-color="#f2f7ff" stop-opacity="0.9"/><stop offset="0.48" stop-color="#e7f1ff" stop-opacity="0.83"/><stop offset="0.55" stop-color="#d9e9ff" stop-opacity="0.73"/><stop offset="0.62" stop-color="#c7e0ff" stop-opacity="0.6"/><stop offset="0.68" stop-color="#b3d4ff" stop-opacity="0.45"/><stop offset="0.74" stop-color="#9bc6ff" stop-opacity="0.28"/><stop offset="0.79" stop-color="#81b8ff" stop-opacity="0.1"/><stop offset="0.82" stop-color="#73b0ff" stop-opacity="0"/></radialGradient><radialGradient id="82c67169-bfa1-4957-b63d-af98c51df071" cx="239.85" cy="262.01" r="260.67" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#fff"/><stop offset="0.09" stop-color="#fafcff" stop-opacity="0.97"/><stop offset="0.23" stop-color="#edf5ff" stop-opacity="0.87"/><stop offset="0.4" stop-color="#d7e9ff" stop-opacity="0.72"/><stop offset="0.6" stop-color="#b9d8ff" stop-opacity="0.5"/><stop offset="0.82" stop-color="#94c2ff" stop-opacity="0.23"/><stop offset="1" stop-color="#73b0ff" stop-opacity="0"/></radialGradient><radialGradient id="a1a0d937-b022-4d73-a3d4-093a6f1664b6" cx="239.85" cy="262.01" r="260.67" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.08" stop-color="#fcfdff" stop-opacity="0.98"/><stop offset="0.18" stop-color="#f3f8ff" stop-opacity="0.92"/><stop offset="0.29" stop-color="#e5f0ff" stop-opacity="0.81"/><stop offset="0.41" stop-color="#d1e5ff" stop-opacity="0.67"/><stop offset="0.54" stop-color="#b7d6ff" stop-opacity="0.48"/><stop offset="0.68" stop-color="#97c4ff" stop-opacity="0.26"/><stop offset="0.81" stop-color="#73b0ff" stop-opacity="0"/></radialGradient></defs><title>blackhole</title><g style="isolation:isolate"><g id="7735b39e-cb20-4d47-af70-97f16e35bf76" data-name="Layer 1"><circle id="5d2b8c0a-49d2-42ed-a27f-43f889445e46" data-name="&lt;Path&gt;" cx="243.29" cy="266.73" r="81.83"/><path id="75b0bb72-1eb2-4045-add3-c4e794c837fc" data-name="&lt;Compound Path&gt;" d="M429.37,310c-1.17-15.68-6.06-30.22-6.35-46.19-.37-20.36,3-42.2-11.18-58.86-6.5-7.63-14.82-12.87-20.46-21.46-6.52-9.93-9.31-21.48-14.28-32-10.41-22.06-28.4-24.94-47-36.48-17.64-11-22.23-20.53-45.48-21.16-24.93-.68-45.85,7.83-70.11,2.29-16.05-3.66-46.62-12.32-58.74-.95-24.6,23.11-59,25.09-71.55,65.65C75,190.71,55.46,208.24,61.37,241.87,64,256.64,71.54,270.05,73.52,285c1.46,11.06-1.63,21.09-1.77,32.25-.21,16.13,12.44,55.87,27.6,63.92l1.78,3.21-.43-.36c4,7.34,6.85,12.5,12.44,18.47,3.28,3.5,9.61,9.54,13.44,11.34,5.18,2.42,13.57,1.1,19.54,3.2,4.75,1.67,8.85,5.05,13.34,6.74A60.84,60.84,0,0,0,173,427.33c19.37,3.2,41.5,3.05,58.73,14.29,10.68,7,12.54,12.82,25.68,15.53,18.23,3.75,36.25-4.38,52.58-12.57,19.64-9.85,43.74-22,61.19-35.27,18.29-13.87,30.67-42.55,43.58-61.54C423.54,334.84,430.57,326,429.37,310ZM243.29,348.56a81.83,81.83,0,1,1,81.83-81.83A81.83,81.83,0,0,1,243.29,348.56Z" style="fill:url(#2e8f4dee-5a68-4075-890f-0da9ebb6ce05)"/><path id="a744f9de-a26f-4511-aaea-1a8c9b48e900" data-name="&lt;Compound Path&gt;" d="M382.51,226.74c-10-29.75-22-45.73-47.73-64.06-8.43-6-18.45-9.79-26.7-15.87-5.83-4.29-6.1-8.69-10.34-12.44-6.92-6.1-8.07-5.89-17.06-6.61-13.39-1.07-25.56,3.77-38.57,3.82-23.3.09-33-20.73-55.66-18.87-27.46,2.26-29.18,23.94-42.5,43.11-8.24,11.86-22.85,14.23-31.36,25.78-7.13,9.68-12.6,22.89-18,33.69-12,24.17-.41,43.58,5.08,68.33,3.17,14.28-2.33,46,7.18,56.15l1.25-1.25c5.48,6.29,2.56,11.85,5,19.1,4.4,13.29,19.48,18.09,31.11,24.78,21.8,12.53,39.58,19.07,65,20.16,13.21.56,26.18-1.23,39.1,2.38,16.24,4.54,28.49,13.19,46,8.79,27.12-6.81,61.82-21.25,74.76-47.73,6-12.34,5.91-21.48,7.64-34.36,1.61-12,8.08-17.73,13.74-27.51C407.87,274,392.6,256.71,382.51,226.74Zm-26,90.83c-3.63,16.29.32,25.54-12.84,37.27-20.25,18-42.48,18.71-68.64,14.59-14.15-2.23-26.57-6.89-41-4.56-19.08,3.08-31.3,9.54-50.78,2.59-8.49-3-24.74-8.71-31.24-15-6.14-6-10.18-14.74-16.13-20.82-11.52-11.78-2.71-27.39-2.71-44.52-6.06-17.43-8.45-51.57,3.14-65.92C147,208,160.24,185.91,174.9,176.64c7.87-5,18.35-5.23,26.55-9.49,8.75-4.55,14.31-11.37,24.6-13.06,21.34-3.5,31,8.7,49.78,14.45s36.1,7.35,42.74,28.87c3.71,12,2.64,19.37,12.82,28.31,11.79,10.35,23,19,32,32.42C379.62,282.21,362.14,292.42,356.53,317.58Z" style="opacity:0.92;mix-blend-mode:hard-light;fill:url(#b492b6a8-9e6c-4375-ba30-61591841e822)"/><path id="af98f191-4e1d-43a3-9d4d-85ed27e809bf" data-name="&lt;Path&gt;" d="M228,468.88c-17.88-35-43.47-63.71-52.59-104.08-9.21-40.75-7.62-75.55,21.27-106.55-10.13,6.84-18.34,7.79-28.54,14.88-17.26,12-26.84,22.18-37.11,37.58-22.31,33.42-31.34,52.51-34.69,87.09-1.43,14.79,1.91,39.31,2.53,46.37,1.05,11.91,21.27,33.37,35.67,31.8" style="mix-blend-mode:hard-light;fill:url(#0c297ec7-b336-446a-8a90-78be36a41ca9)"/><path id="c34dc89a-2401-47fb-9b66-0a4067c039fa" data-name="&lt;Path&gt;" d="M401.68,371.74c-30.43,6.13-55.11,6-82.2,1.75-23.41-3.63-45.08-10.06-64.82-22.59-19.23-12.2-30.47-38-30.47-38-4.1,19,7.09,45.41,15.77,60,13.47,22.56,31.9,39.18,53.6,55C308.73,439,324,448.39,342.44,452.75c8,1.89,19.47,8.18,27.89,7.48,14.58-1.21,11.29,2.51,28.85-3.76,32.14-11.48,29.66-26.69,52.29-35,23-8.47,15.94-60.09,12.08-80.28C444.95,356.68,426.23,366.79,401.68,371.74Z" style="mix-blend-mode:hard-light;fill:url(#e025bdde-e409-476c-a095-280c8ec4a5b9)"/><path id="e2d76ea7-ad7d-46b8-983a-b4539285c70f" data-name="&lt;Path&gt;" d="M199.48,209.17c9.47,2,15.94,3.48,24.41,8.26a38.17,38.17,0,0,1,8.59,6.35A84.24,84.24,0,0,0,219,204.47c-8.37-8.87-22.59-21.49-32.25-27.79-23.6-15.38-36.5-23.14-65.15-25.19-13.88-1-27.92,1.18-44.56,3-5.73.64-19.22,4.31-24.21,7.29-4.11,2.45-14.24,8.45-20.17,16-16.09,20.43-6.65,28.95-15,47.51C13.41,234.72.27,271.55.31,282c.12,31.59,2.48,43.86,17.22,47.47,3.28-2.79,7.6-29.7,24.18-55.92,10.56-16.7,37.87-40.38,52.49-48.6,15.48-8.71,34.16-16.8,51.89-18.21C163.55,205.36,182.25,205.47,199.48,209.17Z" style="mix-blend-mode:hard-light;fill:url(#a3234330-c761-4060-999d-5127dc9778a0)"/><path id="13276a04-03bd-48c9-9757-160836f85edb" data-name="&lt;Path&gt;" d="M496.14,219.71c1.42-20.05,10.28-28.68-4.89-46.82-6.6-7.89-15.44-14.76-21.42-22.95-6.52-8.92-4-15.09-4.93-25.07-1.46-16.14-21.63-28.3-20.16-44.08-4,25.65-3.58,38.41-12,70.67-5.27,20.11-19.13,41.88-29.27,60.17-10.24,18.49-27.61,34.6-43.28,48.37-26,22.85-58.06,42.56-92.41,41.34,17.25,14.38,50.29,13.89,71.4,11.12,48-6.29,94.31-17.13,135.56-44.22,0,0,24-25.75,23.38-32.21C497.54,230.44,495.73,225.49,496.14,219.71Z" style="mix-blend-mode:hard-light;fill:url(#82c67169-bfa1-4957-b63d-af98c51df071)"/><path id="ed982ee7-d20c-4f9f-8365-ee2d4019fceb" data-name="&lt;Path&gt;" d="M206.77,24.24c-23.92-1.17-46.54,1.52-66.81,15.19,51.91-13.15,112.12,31.74,138,73.24,15.45,24.81,28.88,51.7,26.45,81-2.71,32.55-16.84,54.12-16.84,54.12,8.79-1.73,29.19-23.71,36-34.71,13.38-21.75,19.81-43.56,22.16-66.07,2.19-20.92.85-50.12-6.55-70-4.49-12.08-15.33-12.59-26.31-18.11C300.58,52.74,294,39.39,281,33.71c-9.84-4.3-17.29-.14-27.84-2.21-15.75-3.1-30.25-6.46-46.4-7.25" style="mix-blend-mode:hard-light;fill:url(#a1a0d937-b022-4d73-a3d4-093a6f1664b6)"/></g></g>
-        <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 0 0"
-                          to="360 0 0"
-                          dur="20s"
-                          repeatCount="indefinite"/>
-        </svg>
+            </div>
+        </div>
     </div>
-    <div class="sun">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500"><defs><radialGradient id="radial-gradient" cx="375.29" cy="249.42" r="197.18" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#ffeca7"/><stop offset="0.3" stop-color="#ffeca5" stop-opacity="0.68"/><stop offset="0.64" stop-color="#ffeba3" stop-opacity="0.32"/><stop offset="0.88" stop-color="#ffeba2" stop-opacity="0.09"/><stop offset="1" stop-color="#ffeba1" stop-opacity="0"/></radialGradient><radialGradient id="radial-gradient-2" cx="125.87" cy="249.42" r="197.18" xlink:href="#radial-gradient"/></defs><title>sun</title><g style="isolation:isolate"><g id="Layer_1" data-name="Layer 1"><path id="_Path_" data-name="&lt;Path&gt;" d="M250.58,0C388.33,0,500,111.67,500,249.42S388.33,498.83,250.58,498.83" style="fill:url(#radial-gradient)"/><path id="_Path_2" data-name="&lt;Path&gt;" d="M250.58,498.83C112.83,498.83,1.17,387.17,1.17,249.42S112.83,0,250.58,0" style="fill:url(#radial-gradient-2)"/><circle id="_Path_3" data-name="&lt;Path&gt;" cx="250.58" cy="249.42" r="140.7" style="fill:#ff6137;opacity:0.6000000000000001;mix-blend-mode:hard-light"/><circle id="_Path_4" data-name="&lt;Path&gt;" cx="256.98" cy="249.42" r="131.1" style="fill:#ffd743"/><ellipse id="_Path_5" data-name="&lt;Path&gt;" cx="211.74" cy="171.87" rx="30.19" ry="26.42" transform="translate(-54.67 113.59) rotate(-26.73)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/><ellipse id="_Path_6" data-name="&lt;Path&gt;" cx="327.33" cy="243.02" rx="30.19" ry="32.07" transform="translate(-13.55 19.41) rotate(-3.33)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/><ellipse id="_Path_7" data-name="&lt;Path&gt;" cx="212.21" cy="246.22" rx="16.57" ry="15.65" transform="translate(-31.17 30.76) rotate(-7.73)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/><ellipse id="_Path_8" data-name="&lt;Path&gt;" cx="299" cy="149.26" rx="9.58" ry="12.47" transform="matrix(0.39, -0.92, 0.92, 0.39, 45.04, 366.48)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/><ellipse id="_Path_9" data-name="&lt;Path&gt;" cx="292.34" cy="342.78" rx="20.86" ry="14.77" transform="translate(-84.19 95.41) rotate(-16.24)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/><ellipse id="_Path_10" data-name="&lt;Path&gt;" cx="164.25" cy="326.16" rx="20.34" ry="20" transform="translate(-154.27 147.54) rotate(-33.99)" style="fill:#ff6137;opacity:0.76;mix-blend-mode:hard-light"/></g></g>
-        <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 0 0"
-                          to="360 0 0"
-                          dur="20s"
-                          repeatCount="indefinite"/>
-        </svg>
+    <div id="project-container" style="background-color:#eef4f7;">
+        <div class="container" style="height:100%;padding:30px 15px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="projects">
+    <h1 id="projects-header" class="hvr-pop">My Projects</h1>
+</div>
+                </div>
+            </div>
+            <div class="row" style="height:100%;">
+                <div class="col-md-4 col-sm-offset-12" style="margin:0;height:auto;" href="/bot.html">
+                    <div data-bs-hover-animate="pulse" id="watducks" style="padding:0;" href="/bot.html">
+                        
+    <header id="watducks-header">Watducks</header>
+    <p id="watducks-about">A conversational bot that aims to provide convenience for University of Waterloo students</p>
+                        <div class="carousel slide" data-ride="carousel" data-interval="4000" id="carousel-2">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active"><img src="assets/img/Image-2.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image-1.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image.png" alt="Slide Image"></div>
+                            </div>
+                            <div><a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-2"
+                                role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-2" data-slide-to="1"></li>
+                                <li data-target="#carousel-2" data-slide-to="2"></li>
+                            </ol>
+                        </div><a style="background-color:transparent;font-family:Audiowide, cursive;color:#06e1ff;"> Find out</a></div>
+                </div>
+                <div class="col-md-4 col-sm-offset-12 project-holder" style="margin:0;height:auto;">
+                    <div data-bs-hover-animate="pulse" id="watducks" style="padding:0;">
+                        
+    <header id="watducks-header">Watnew</header>
+    <p id="watducks-about">A Face identification tool that can recognize almost every professor in University of Waterloo</p>
+                        <div class="carousel slide" data-ride="carousel" data-interval="8000" id="carousel-1">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active project-item"><img src="assets/img/Image-1.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image-2.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image.png" alt="Slide Image"></div>
+                            </div>
+                            <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1"
+                                role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                            </ol>
+                        </div><a style="background-color:transparent;font-family:Audiowide, cursive;color:#06e1ff;"> Find out</a></div>
+                </div>
+                <div class="col-md-4 col-sm-offset-12" style="margin:0;height:auto;">
+                    <div data-bs-hover-animate="pulse" id="watducks" style="padding:0;">
+                        
+    <header id="watducks-header">FindProf</header>
+    <p id="watducks-about">An online platform for Watnew to identify an image and to set up UW prof's profile.</p>
+                        <div class="carousel slide" data-ride="carousel" data-interval="6000" id="carousel-3">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active"><img src="assets/img/Image.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image-1.png" alt="Slide Image"></div>
+                                <div class="item"><img src="assets/img/Image-2.png" alt="Slide Image"></div>
+                            </div>
+                            <div><a class="left carousel-control" href="#carousel-3" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-3"
+                                role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-3" data-slide-to="1"></li>
+                                <li data-target="#carousel-3" data-slide-to="2"></li>
+                            </ol>
+                        </div><a href="/bot.html" style="background-color:transparent;font-family:Audiowide, cursive;color:#06e1ff;"> Find out</a></div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="comet">
-    <svg id="1fef4f88-36bd-4a81-b3b3-0902cef140bb" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500"><defs><radialGradient id="2a72a3dc-1a8a-4143-80b4-167e8e98c556" cx="-1" cy="96.37" r="490.29" gradientTransform="matrix(0.84, -0.54, 0.54, 0.84, 57.47, 256.92)" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#73b0ff"/><stop offset="0.3" stop-color="#73b0ff" stop-opacity="0.68"/><stop offset="0.64" stop-color="#73b0ff" stop-opacity="0.32"/><stop offset="0.88" stop-color="#73b0ff" stop-opacity="0.09"/><stop offset="1" stop-color="#73b0ff" stop-opacity="0"/></radialGradient><radialGradient id="11e402c4-02d6-4b71-9e4a-f28e2ae9c8f9" cx="-69.56" cy="55.2" r="317.08" xlink:href="#2a72a3dc-1a8a-4143-80b4-167e8e98c556"/></defs><title>comet</title><path id="abe5a72b-7b2d-4008-b664-aaea9e5d81f0" data-name="&lt;Path&gt;" d="M107.14,403a143.61,143.61,0,0,0-17.65-6.64c10-4.52,23.8-4.3,34.84-8,13.61-4.57,25.45-12.68,38.9-17.4-11.7.88-30.72-2.11-41-8.47,9-5.49,20.41-7.23,29.72-12.32,12.37-6.75,24.7-17.25,35.8-26.12-5.69.36-12.25,1.36-18.26.34,20-16.08,51.85-26.69,67.64-47.51-16.9,1.39-24.42,5-43.68,3,16.9-10.32,35.82-27.77,47.12-42.43-7.89,1.62-26.61,7-34.48,8,28.33-20.44,52.69-44,79.52-65.36C335,140.7,383.52,105.42,497,40.64" style="fill:url(#2a72a3dc-1a8a-4143-80b4-167e8e98c556)"/><path id="2684e382-b394-4d6a-b0ea-a6c8f38f2def" data-name="&lt;Path&gt;" d="M264.94,147.78c-32.25,21-43.41,29.11-75.6,49.77,3.35-7.61,15.13-20.63,21.6-25.88-14,4.86-36.72,19.27-59.08,34.54,3.65-7,9.53-14.71,12.62-19.75-15,8.46-54,42-73.76,62l-.55.33c1.71-3.29,4.36-16.86,5.78-20.91C85.23,233,64.64,242.62,52.81,256.46a53.18,53.18,0,0,1,7.48-19.88c-20.85,12.86-34.59,37.31-42,60a60,60,0,0,1-2.43-11.16C2.56,305,.57,330.27,5.38,352.76c5.13,24,21.16,32.81,41.95,42.58C67,404.6,86,402.79,107.14,403" style="fill:url(#11e402c4-02d6-4b71-9e4a-f28e2ae9c8f9)"/><path id="94b4f303-0d5f-4723-acc9-ba5dab6abcde" data-name="&lt;Path&gt;" d="M350,111.29C313,138,227,200.57,188.74,232.91c-20.33,17.19-36.54,35.67-45.85,44.26a94.76,94.76,0,0,0,23.86-5.48c-7.45,8.6-16.55,17.18-24.94,24.92,4,3.31,7.34,5.47,16.52,7-10.12,7.71-25.05,15.54-36.19,20.21,5.38,0,13.24-.35,20.73-3.72-11.6,11.18-19.43,20-32.44,29a99.49,99.49,0,0,1-36.69,16.1c5,3.74,12.2,4.65,18.1,7-11.53,1.84-35-1.18-46.75-6-6.63-2.71-14.53-11.06-17.3-17.49-3.81-8.86-.64-26,3.48-34.28.38.81,1.66,2,2.16,3,5.13-9.36,9.86-21,16.12-29.19a48.41,48.41,0,0,1,.12,9.06c6.23-10.41,12.17-19.72,20.45-28.61,1.22,3.42-1.09,7.25.42,10.7C84.17,265.94,92.11,261,104,254.46c-1.92,5.13-2.66,8.41-2.67,13.17,8.09-7.49,8.39-9.28,18.56-15.7,7.21-4.54,16.38-8.57,30.64-16.06-5.89,6.12-9.49,14.61-11.3,19.39,5.16-3.81,29.9-23.45,50.44-37.43,47.91-32.61,143-97.94,160.38-106.54" style="fill:#fff"/><path id="acb2deaf-7a51-442c-82a4-36e6ebaf62f3" data-name="&lt;Path&gt;" d="M37.21,337.93c-.12-4.43,3.12-9.49,6.48-11.86,2.2-1.55,4.29-2,5.63-4.52,1.43-2.68,1-6.62,2.59-9.31,3.4-5.79,10.82-11.73,17-14.12,5.71-2.21,13.63-7.74,19.41-8.26,3-.27,12.6,4.14,14.23,6.43,2,2.81,1.78,9.75,2.49,13,1,4.63.12,4.55-1.49,8.75-1.94,5.06-3.63,6.76-6.17,11.65-2.91,5.61-4.81,6.63-9.87,7.48-1.46.25-8.31,2.86-9.43,4.32-2.4,3.13-4.18,6.41-9.49,9.59-7.15,4.28-7.38,5.69-13.77,2.17-3.66-2-3.63,0-7.17-.33-2.34-.22-3.35-2.76-5.76-2.32-1.37-1.4-2.68-3.35-2.77-4.66Z" style="fill:#bfdbff"/></svg>
+    <div>
+        <div class="container" style="margin:0px 0px;padding:0px 0px;height:100%;width:100%;">
+            <div class="row" style="margin:0px 0px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0px 0px;">
+                    <div id="video-container">
+    <video loop muted autoplay class="show">
+        <source src="https://www.student.cs.uwaterloo.ca/~z687wang/mc.mp4" type="video/mp4"><source>
+    </video>
+</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="asteroid">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><title>asteroid</title><g style="isolation:isolate"><g id="76a0f664-8698-49c4-adab-1dd6e476d993" data-name="Layer 1"><path id="60448105-2a7f-4dab-9d1c-28ad1dfc2c49" data-name="&lt;Path&gt;" d="M319.81,465c19.23-3.6,53.34-28.61,53.34-28.61,12.49-35.69,63-31.16,55.59-101.08,50.17-27.24,80.11-71.76,68.9-120.58C487.85,172,448.16,61.46,406.58,49,360.46,35.25,329.87,70.42,282,47.7c-53.09-25.18-60.19-31.75-113-7C138.12,55.09,99.87,71.36,74.12,93,46.93,115.77,6.34,177.82.53,215.67c-5.33,34.72,30.81,113.27,47.95,148a84.89,84.89,0,0,0,23.39,28.88c29.65,23.57,95.63,74.91,117.52,83.07" style="fill:#c7725c"/><path id="ca8f842b-7230-47e0-8eca-1c1c92008597" data-name="&lt;Path&gt;" d="M189.39,475.63c-21.9-8.16-87.87-59.51-117.52-83.07a84.9,84.9,0,0,1-23.39-28.88C37,340.38,16.94,297.36,6.59,261.08c9.62,24.3,20.57,47.48,28,62.49A84.89,84.89,0,0,0,58,352.45c29.65,23.57,95.63,74.91,117.52,83.07,31.38,7.37,70.81.49,130.43-10.67,19.23-3.6,53.34-28.61,53.34-28.61,12.49-35.69,63-31.16,55.6-101.08,50.17-27.24,80.11-71.76,68.9-120.58-1.4-6.12-3.42-13.63-6-22,9.45,24.26,16.47,47.3,19.88,62.15,11.21,48.81-18.73,93.34-68.9,120.58,7.41,69.92-43.11,65.39-55.59,101.08,0,0-34.11,25-53.34,28.61" style="fill:#c7725c;mix-blend-mode:multiply"/><path id="87a42eab-778f-48c3-b770-797c53df9b82" data-name="&lt;Path&gt;" d="M277.58,447.13c9.22-17-18.19-16.65-27.9-16.13-7.3.4-33.42,2.39-35.47,12.25" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="0163b400-414b-4bec-8bb6-1094883e4263" data-name="&lt;Path&gt;" d="M295.73,390.72c30,1.37,61.53-30.34,39.38-68-11-18.69-35-25.67-56.93-22.13-28.64,4.61-39.29,25.85-35.29,52.56,2.79,18.59,15.17,33.2,34.32,35.85C281.8,389.59,291.08,390.5,295.73,390.72Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="f75933e7-56d4-4492-a071-73584bab0356" data-name="&lt;Path&gt;" d="M209,395.78c5.25-8.15,1.93-31.89-20.74-24.22-19.31,6.53,0,38.58,14.85,28.83A35.16,35.16,0,0,0,209,395.78Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="7ea15465-7220-4867-81bc-d1c3e67352a3" data-name="&lt;Path&gt;" d="M371.4,423.22c1.31-6.39,4.76-11.88,9.15-16.89,4.89-5.58,13-11.28,20.77-12.13,2-.22,7.7-.69,9.29,1.17a3.26,3.26,0,0,1,.47.74c-12.5,12.36-28.13,19.76-35.87,35.34-.93.95-1.91,1.51-2.83,1.14C369.15,431.27,370.92,425.53,371.4,423.22Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="9dd0f75a-2b64-4c93-beec-55e4ede6d59e" data-name="&lt;Path&gt;" d="M446.35,318c-.21,5.31-10.38,10.44-14.82,13.14-5.77,3.51-8.75,3.3-14.09-.92-6.65-5.26-7.17-9.2-2-16.47,5-7.1,14.48-13.23,24.08-10.37,6.61,2,8,8.67,7.42,13.15" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="fb06a4ed-e522-422e-8255-a21bc8b06655" data-name="&lt;Path&gt;" d="M314,208.26c9.05-11.63,2.67-39.1-10.94-51.62-9.06-8.34-17.44-11.14-29.89-13.12-13.75-2.19-19-1.44-26.61-.69-24.32,2.39-27.85,10-33.23,27.67C202.78,205,233.1,227.42,251.05,232,301.09,244.66,313.41,209,314,208.26Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="2de7ab59-683d-4b75-b790-8782a4717b1c" data-name="&lt;Path&gt;" d="M333.1,434.43c7.79-2.85,13-9.77,11.26-18.45-1.35-6.83-6.92-12-14.27-11.24-9.47,1-19,7.53-22.73,16.12-3.21,7.42,2,14,9.54,15.46,3.65.7,10.67.17,13.81-1.06C331.29,435,332.5,434.65,333.1,434.43Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="5bf84ffc-f42a-42b3-ab20-17ba188efaa8" data-name="&lt;Path&gt;" d="M292.87,66c12.77,10.68,22.12,25,19.27,42.47-1.67,10.25-10.3,19.72-22.25,15.92-11.47-3.65-17.24-14.47-20.89-24.84-2.75-7.82-11.16-31.74-2.94-38.49C269.8,58,277,57.65,281.58,58.63c4.2.89,5.87,3.06,8.49,5.35C290.72,64.55,292.2,65.46,292.87,66Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="82004158-831f-4a1a-a48a-0ace99c3518d" data-name="&lt;Path&gt;" d="M491.1,204.24c1.9,7.73,3.52,29.93-10.11,26.53-12.5-3.12-18.35-22.66-22.24-32.8-2.93-7.66-17.41-35.9-1.64-39.2,7.06-1.48,17.18,9.41,20.66,14,4.12,5.39,11.82,19.06,12.52,25.25C490.47,199.53,490.72,202.7,491.1,204.24Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="d7a2c997-36e9-49bc-bee7-69bbfa52d3c0" data-name="&lt;Path&gt;" d="M146.71,449.37c-25.47-18.05-54.8-40.92-72.75-55.15-5.13-9.75,12.46-7.77,17-7.48,13.28.86,20.39,15.84,30.82,22.19,8.42,5.12,17.3,7.47,24.38,14.5,5.77,5.74,9.3,10.45,10.23,18.61" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="a8e9b674-dd4d-4329-9372-6bc2a726a059" data-name="&lt;Path&gt;" d="M64.28,319c7.19-14.51-3.91-26-8-39.15-2.52-8.2-9.07-38.21-23.44-31.73-15.91,7.18-8.09,32-4.33,44.1,3.58,11.46,9.7,22.64,19.29,30.3,5,4,12.8,7,15.37-.51C63.47,321.29,63.92,319.75,64.28,319Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="0592797f-9861-4f78-9993-6c572312b174" data-name="&lt;Path&gt;" d="M189.61,300.61c8.2-9,9.22-33.09,7.35-42.42-2.13-10.62-6.78-23.32-13.33-32.16-12.95-17.5-39.25-24.46-59.72-17.46-34.46,11.79-32.13,64.35-19.65,89.62,10.94,22.15,32.58,27,56.44,20.33C172,315.39,183.91,306.86,189.61,300.61Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="5dad4609-0597-4834-a443-1becb6f761ce" data-name="&lt;Path&gt;" d="M402.5,258c-2.62-13-11.87-32.88-28.16-29.4-11.93,2.55-14.44,14-13,24.85,1.86,14,9.39,26.05,24.63,24.35C402.44,275.92,403,260.42,402.5,258Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="e8068107-5a14-4fea-80e7-bd9adce8ffa6" data-name="&lt;Path&gt;" d="M403.63,165.07C410,160,407.13,149,405,137.48c-2.92-15.86-12-26.18-29.38-26.33-14.41-.12-28.27,6.37-31.49,20.93-3.77,17,7.76,27.33,21.25,35.5,13.05,7.9,19,6,27.7,3.83C396.39,170.57,399.61,168.29,403.63,165.07Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="e20aa339-d79b-4f44-927d-45b47ce17b87" data-name="&lt;Path&gt;" d="M474.34,299.42a8.45,8.45,0,0,1-2,.28c-9.09.11-8.49-11.16-7.14-16.75,2-8.27,16.28-35.47,28.65-30.12a8.5,8.5,0,0,1,3.66,3C493.7,271.51,485.7,286.22,474.34,299.42Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="e72f26a5-76f3-4fee-93fb-cc7fc020622e" data-name="&lt;Path&gt;" d="M194.68,95.86c6.23,37.61-78.92,86.39-113.17,77.19-24.94-6.7-24-28.62-10.56-45,14.3-17.39,33.73-19.63,53.49-27.3,14.66-5.69,63.09-40.28,69.34-10.15C194.05,91.93,194.46,94.55,194.68,95.86Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="bb92cb78-6f2f-42fc-9c30-85b189639af9" data-name="&lt;Path&gt;" d="M130.84,73.77c-6.86,4.18-20.06,11.45-27,3.66a5.89,5.89,0,0,1-1.47-3.89c19.33-11.27,40.88-21,60.19-29.91C164.54,56.31,139.57,68.45,130.84,73.77Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="aa6132bb-4ce5-4a74-adcb-dd1920167759" data-name="&lt;Path&gt;" d="M16.3,171.83A33.06,33.06,0,0,0,19.16,176c5.52,6.12,16.8,4.53,16.07,15.2-.53,7.69-3.09,15.21-11.18,18-6.6,2.29-15,2.07-20.66-2.46a10.55,10.55,0,0,1-.78-.71C5.43,195.55,10.25,183.79,16.3,171.83Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="7ae0d1f1-a44b-4f81-a70c-da08b34127e5" data-name="&lt;Path&gt;" d="M373.38,46.32c1.58,5.47-1.62,12.49-6.43,17.07-6.73,6.41-20.35,9.79-29.8,8.94-11.27-1-19.54-6.76-11.35-15.55a20.31,20.31,0,0,1,2.2-2C343.33,52.87,357.83,48,373.38,46.32Z" style="fill:#b3897c;mix-blend-mode:multiply"/><path id="08ad37b9-0517-440b-8d38-24a18a74b9ee" data-name="&lt;Path&gt;" d="M439.43,106.17c-1.86,17.31-25.1,2.35-24.45-16.91.74-21.67,22.48-6.08,24.08,6.28A60.25,60.25,0,0,1,439.43,106.17Z" style="fill:#b3897c;mix-blend-mode:multiply"/></g></g>
-        <animateTransform attributeName="transform"
-                          attributeType="XML"
-                          type="rotate"
-                          from="0 0 0"
-                          to="360 0 0"
-                          dur="10s"
-                          repeatCount="indefinite"/>
-        </svg>
+    <div class="footer-dark" style="padding:25px 0px;">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 item text" style="padding:0px 0px;margin:0px 0px 25px;">
+                        <h3>Contact me </h3>
+                        <p>Do not hesitate to contact me if you are interested in my projects or videoes. Do not hesitate to give me an interview ~</p>
+                    </div>
+                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+                        <h3>Looking for Co-op Now</h3>
+                        <ul>
+                            <li><a href="#" id="toProject">Projects </a></li>
+                            <li><a href="#intro" id="toIntro">Abilitties </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+                        <h3>About </h3>
+                        <ul>
+                            <li><a href="#">Resume </a></li>
+                            <li><a href="#">Video </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-sm-4 item social" style="padding:0px 10px;"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="fa fa-github"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></div>
+                </div>
+                <p class="copyright" style="padding:12px 0px 0px;">ZHE WANG © 2017</p>
+            </div>
+        </footer>
     </div>
-    <div class="filter"></div>
-    <div class="img-container">
-    <img src="assets/img/Cygnus-New-L.jpg">
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Stars Map</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h5 class="text-left" style="color:#494c49;font-family:'Press Start 2P', cursive;font-size:9px;"> HTML+CSS</h5>
+                            <div class="progress beautiful progress-lg">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width: 83%;"><span class="sr-only">83%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h5 class="text-left" style="color:#494c49;font-family:'Press Start 2P', cursive;font-size:9px;"> Javascript</h5>
+                            <div class="progress beautiful progress-lg">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;"><span class="sr-only">87%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h5 class="text-left" style="color:#494c49;font-family:'Press Start 2P', cursive;font-size:9px;"> C/C++</h5>
+                            <div class="progress beautiful progress-lg">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">65%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <h5 style="color:#494c49;font-family:&#39;Press Start 2P&#39;, cursive;font-size:9px;">Ruby on Rails</h5>
+    <div class="progress beautiful">
+        <div class="progress-bar progress-bar-warning progress-bar-striped active" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">40%</span></div>
     </div>
 </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <h5 style="font-family:&#39;Press Start 2P&#39;, cursive;font-size:9px;">Node.js </h5>
+    <div class="progress beautiful">
+        <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+    </div>
+</div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">MySQL </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">jQuery </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">AngularJS </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">Bootstrap </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">65%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+    <h5 style="font-family:&#39;Press Start 2P&#39;, cursive;font-size:9px;">MongoDB </h5>
+    <div class="progress beautiful">
+        <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+    </div>
+</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">Racket </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">Adobe After Effects </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-success progress-bar-striped" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:9px;">Adobe Premiere </h5>
+                            <div class="progress beautiful">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <h5 style="font-family:'Press Start 2P', cursive;font-size:12px;">Front end Web development</h5>
+                            <div class="progress beautiful">
+    <div class="progress-bar progress-bar-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 72%;"></div>
+    <div class="progress-bar progress-bar-warning" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+    <div class="progress-bar progress-bar-danger" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+</div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <h5 style="font-family:'Press Start 2P', cursive;color:#494c49;font-size:12px;"> Full stack Javascript development</h5>
+                            <div class="progress beautiful">
+    <div class="progress-bar progress-bar-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 59%;"></div>
+    <div class="progress-bar progress-bar-warning" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+    <div class="progress-bar progress-bar-danger" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+</div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                            <h5 style="font-family:'Press Start 2P', cursive;color:#494c49;font-size:12px;"> C/C++ development</h5>
+                            <div class="progress beautiful">
+    <div class="progress-bar progress-bar-success" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"></div>
+    <div class="progress-bar progress-bar-warning" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+    <div class="progress-bar progress-bar-danger" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="button" data-dismiss="modal">Okay</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
